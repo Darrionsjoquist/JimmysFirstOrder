@@ -24,3 +24,4 @@ Can you bootstrap's carousel control.
 
 This can be used to implement how the content scrolls on the [TavernLaw](https://www.tavernlaw.com/) site.
 [CSS position sticky - Kevin Powell](https://www.youtube.com/watch?v=8TyoihVGErI)
+

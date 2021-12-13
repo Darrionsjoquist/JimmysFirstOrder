@@ -1,0 +1,37 @@
+
+body {
+  margin:0;
+  padding: 0;
+}
+
+.hero {
+  height:100vh;
+  background-image: url("../images/salad.jpg");
+  background-size:cover;
+}
+
+#title-card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+#title-card h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-size: 108px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.hide-title-card {
+  opacity:0;
+}

@@ -1,6 +1,6 @@
 let foodQ = document.getElementById(`Food`)
 let drinksQ = document.getElementById(`Drinks`)
-let specialsQ = document.getElementById(`Specials`)
+let treatsQ = document.getElementById(`Treats`)
 
 let MenuList = document.getElementById(`MenuList`)
 
@@ -40,4 +40,4 @@ foodQ.addEventListener(`click`, GenFoodMenu)
 
 drinksQ.addEventListener(`click`, GenFoodMenu)
 
-specialsQ.addEventListener(`click`, GenFoodMenu)
+treatsQ.addEventListener(`click`, GenFoodMenu)

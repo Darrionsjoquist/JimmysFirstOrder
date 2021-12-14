@@ -9,5 +9,9 @@ EntryPrice:"$160"
 EntryType:"Drinks",
 EntryDiscription:"freshly frozen shrimp ground into paste",
 EntryPrice:"$160"
-}
+},
+{EntryName:"paste cup",
+EntryType:"Treats",
+EntryDiscription:"freshly frozen shrimp ground into paste",
+EntryPrice:"$160"}
 ]

@@ -28,4 +28,5 @@ This can be used to implement how the content scrolls on the [TavernLaw](https:/
 Next steps
 
 Menu pages
-Carousel
+Carousel for specials/gallery
+sticky nav

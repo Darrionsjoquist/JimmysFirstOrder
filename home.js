@@ -3,10 +3,6 @@ let menuLink = document.getElementById("menuLink")
  let visitLink = document.getElementById("visitLink")
  let uberdiv = document.getElementById("uberdiv")
 
- function getMenuImg (e){
- uberdiv.style.backgroundImage = url("images\sun sour.png");
-
- }
 
 
 
@@ -20,11 +16,13 @@ let menuLink = document.getElementById("menuLink")
 
 
 menuLink.addEventListener("mouseover", (event) => {
-   // highlight the mouseover target
-   event.target.style.color = "red";
+   uberdiv.style.backgroundImage = "url(https://media.istockphoto.com/photos/young-sad-man-thinking-while-sitting-on-a-bench-in-autumn-picture-id884811730)"
 });
 
-//menuLink.addEventListener("mouseover", getMenuImg)
+aboutLink.addEventListener("mouseover", (event) => {
+   uberdiv.style.backgroundImage = "url(https://l450v.alamy.com/450v/2c598pc/young-bearded-man-thinking-too-hard-solving-a-difficult-problem-angry-stressed-guy-with-headache-isolated-on-grey-studio-background-2c598pc.jpg)"
+});
 
-
-
+visitLink.addEventListener("mouseover", (event) => {
+   uberdiv.style.backgroundImage = "url(https://cdn.xxl.thumbs.canstockphoto.com/angry-man-on-the-phones-stock-image_csp41564063.jpg)"
+});

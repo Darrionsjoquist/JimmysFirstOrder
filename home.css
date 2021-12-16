@@ -1,11 +1,13 @@
 .directLink {
   margin: 20px;
-  font-size: 40px;
-  color: gold;
+  font-size: 84px;
+  color: rgb(240, 230, 178);
+  text-decoration: none;
 }
 
 body {
   margin: 0;
+  font-family: Roboto,sans-serif;
 }
 
 .uberdiv{

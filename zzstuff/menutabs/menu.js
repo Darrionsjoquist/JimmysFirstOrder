@@ -29,7 +29,11 @@ specialName:"Bucket Monkey",
 specialDisc:"Our very famous bucket monkey, in an ironic twist the bucket protects him from the rain",
 specialImg:"https://i.redd.it/6as3k6sprar51.jpg"
 },
-
+{
+   specialName:"prophetic Monkey",
+   specialDisc:"he knows you, he knows what you've done",
+   specialImg:"https://insider.si.edu/wp-content/uploads/2011/03/NHB2011-00358.jpg"
+},
 {
    specialName:"Hat Monkey",
    specialDisc:"this monkey is one of the most cultured around, his class and civility are unmached",

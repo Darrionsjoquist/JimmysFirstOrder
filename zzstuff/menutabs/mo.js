@@ -16,20 +16,32 @@ function makeCarouselItem (specialObject, index){
    `
 
 }
+function mkBlocks(i) {
 
+if(i===0){
+return `<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>`
+} else {
+return `<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="${i}" aria-label="Slide ${i+1}"></button>`
+}
+
+
+
+}
 
 
 
 
 function genarateSpecials(){
 let itemCode = ""
-let blockCode = ""
-let blockNum = 0
+let blocksCode = ""
 for(i=0; i<specials.length; i++){
 itemCode = itemCode + makeCarouselItem(specials[i], i)
+blocksCode = blocksCode + mkBlocks(i)
+
+
 }
 carouselItems.innerHTML = itemCode
-
+carouselBlocks.innerHTML = blocksCode
 
 }
 

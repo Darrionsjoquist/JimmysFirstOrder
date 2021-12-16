@@ -5,6 +5,12 @@ EntryType:"Food",
 EntryDiscription:"freshly frozen shrimp ground into paste",
 EntryPrice:"$160"
 },
+{
+   EntryName:"srimp paste bowl",
+   EntryType:"Drinks",
+   EntryDiscription:"freshly frozen shrimp ground into paste",
+   EntryPrice:"$161"
+},
 {EntryName:"paste cup",
 EntryType:"Drinks",
 EntryDiscription:"freshly frozen shrimp ground into paste",

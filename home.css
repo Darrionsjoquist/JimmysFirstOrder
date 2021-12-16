@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: Roboto,sans-serif;
+  font-family: Oswald,sans-serif;
 }
 .jimmysid{
 display: block;
@@ -19,9 +19,15 @@ justify-content: center;
 }
 .name{
 text-align:center;
-  
+  font-family: Oswald,sans-serif;
   margin:0 auto;
+  font-size: 27px;
 
+}
+.gold{
+  color:rgb(250, 234, 157)
+  
+  
 }
 .uberdiv{
    background-image: url("https://static2.bigstockphoto.com/8/8/2/large1500/288799834.jpg");

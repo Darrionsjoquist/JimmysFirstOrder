@@ -1,0 +1,30 @@
+.chefPicture {
+   margin: 2%;
+float: left;
+   width: 500px;
+   height: 300px;
+}
+.statment{
+   margin: 5%;
+}
+
+.statment h1{text-align: center;}
+.chef {
+margin: 5%;
+
+
+
+}
+
+
+body{font-size: 20px;}
+
+
+.pictures{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+img {width: 100%;height: 100%;}

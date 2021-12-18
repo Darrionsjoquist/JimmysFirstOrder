@@ -1,0 +1,25 @@
+#FoodTypeSelect {
+   display: flex;
+   justify-content: center;
+}
+.FoodType{
+   display: block;
+   padding: 8px 12px;}
+
+.specialsSlide{
+height: 30vh;
+
+}
+
+img{max-height: 700px;
+
+
+}
+
+.menu {
+
+width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+

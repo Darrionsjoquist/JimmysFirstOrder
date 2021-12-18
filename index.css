@@ -1,0 +1,95 @@
+
+body {
+  margin: 0;
+  font-family: Oswald,sans-serif;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header .logo, header nav, header .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+ul.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  color: white;
+  font-size: 24px;
+  margin: 0 8px;
+}
+.social-link:hover {
+  color: #777;
+}
+
+
+.contact, .hours {
+  text-align: center;
+  display: flex;
+  align-items:flex-start;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company h2 {
+  margin-bottom:0;
+}
+
+
+nav{
+width: 50%;
+font-size:30px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav ul li {
+  padding-left: 40px;
+}

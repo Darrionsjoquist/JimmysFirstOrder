@@ -1,7 +1,7 @@
 let menuLink = document.getElementById("menuLink")
  let aboutLink = document.getElementById("aboutLink")
  let visitLink = document.getElementById("visitLink")
- let uberdiv = document.getElementById("uberdiv")
+ let main = document.getElementById("main")
 
 
 

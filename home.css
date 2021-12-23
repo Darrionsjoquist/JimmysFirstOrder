@@ -6,15 +6,7 @@
 }
 
 .details {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.name{
   text-align:center;
-  font-size: 27px;
 }
 
 .links {
@@ -32,6 +24,7 @@ main {
    background-size: cover;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
 }
+
 

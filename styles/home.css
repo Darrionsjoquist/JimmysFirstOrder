@@ -18,7 +18,7 @@
 }
 
 main {
-   background-image: url("images/salad.jpg");
+   background-image: url("../images/salad.jpg");
    height: 100vh;
    background-repeat: no-repeat;
    background-size: cover;

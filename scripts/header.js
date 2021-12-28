@@ -3,7 +3,7 @@ function genHeader(){
   
   <div class="top-bar container">
   <div class="logo">
-      <img src="images/jimmys-logo.png" alt="">
+  <a href="home.html"><img src="images/jimmys-logo.png" alt=""></a>
   </div>
   <nav> 
     <ul>

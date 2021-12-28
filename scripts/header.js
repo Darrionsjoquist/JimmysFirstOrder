@@ -14,9 +14,9 @@ function genHeader(){
   </nav>
   <div class="socials">
       <ul class="social-list">
-        <li class="social-item"><a href="https://www.facebook.com/jimmysonfirst" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
-        <li class="social-item"><a href="https://twitter.com/JimmysOnFirst" class="social-link"><i class="fab fa-twitter"></i></a></li>
-        <li class="social-item"><a href="https://www.pinterest.com/stadiumjimmys/_created/" class="social-link"><i class="fab fa-pinterest-square"></i></i></a></li>
+        <li class="social-item"><a href="https://www.facebook.com/jimmysonfirst" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="social-item"><a href="https://twitter.com/JimmysOnFirst" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-item"><a href="https://www.pinterest.com/stadiumjimmys/_created/" target="_blank" class="social-link"><i class="fab fa-pinterest-square"></i></i></a></li>
       </ul>
   </div>
 </div>`

@@ -18,6 +18,7 @@ body {
 .top-bar, .bottom-bar {
   display: flex;
   justify-content: space-between;
+  height: 7vh;
 }
 
 header, footer {

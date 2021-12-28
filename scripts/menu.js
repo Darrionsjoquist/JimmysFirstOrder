@@ -118,3 +118,5 @@ foodQ.addEventListener(`click`, GenFoodMenu)
 drinksQ.addEventListener(`click`, GenFoodMenu)
 
 treatsQ.addEventListener(`click`, GenFoodMenu)
+
+foodQ.click();

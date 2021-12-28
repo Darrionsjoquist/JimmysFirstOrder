@@ -7,9 +7,9 @@ function genHeader(){
   </div>
   <nav> 
     <ul>
-      <li>menu</li>
-      <li>about</li>
-      <li>visit</li>
+      <li><a href="">menu</a></li>
+      <li><a href="../about.html" >about</a></li>
+      <li><a href="../visit.html">visit</a></li>
     </ul>
   </nav>
   <div class="socials">

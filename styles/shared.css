@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Oswald,sans-serif;
+  text-transform: none;
 }
 
 .content{
@@ -24,6 +25,7 @@ body {
 header, footer {
   background-color: black;
   color: white;
+  
 }
 
 footer {
@@ -115,4 +117,10 @@ header nav ul {
 /* use sibling selector to only add padding between items */
 header nav ul li + li {
   padding-left: 40px;
+}
+
+header a{
+text-decoration: none;
+color: rgb(209, 208, 208);
+
 }

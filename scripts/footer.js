@@ -1,6 +1,3 @@
-
-
-
 function genFooter (){
   document.getElementById("footer").innerHTML= `
       <div class="container bottom-bar">

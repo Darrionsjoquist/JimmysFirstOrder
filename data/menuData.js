@@ -53,6 +53,9 @@ specialImg:"https://i.redd.it/6as3k6sprar51.jpg"
 }
 ];
 
+// to edit the spreadsheet, use this link
+// https://docs.google.com/spreadsheets/d/1i1PAGv6nFwNhmfDq0GkU78zQ_YMqTMkCdDiRn0Z5u-o/edit?usp=sharing
+
 const getDataFromGoogleSheet = async () => {
    return fetch('https://docs.google.com/spreadsheets/d/1i1PAGv6nFwNhmfDq0GkU78zQ_YMqTMkCdDiRn0Z5u-o/export?format=csv')
    .then((result) => result.text())

@@ -1,3 +1,5 @@
+genHeader()
+
 function addHoverEvent(linkId, imageUrl) {
    document.getElementById(linkId).addEventListener("mouseover", (event) => {
       document.getElementById("main").style.backgroundImage = `url(${imageUrl})`

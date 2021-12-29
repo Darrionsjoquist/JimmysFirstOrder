@@ -1,5 +1,5 @@
 
-genHeader();
+genHeader(1);
 
 let carouselItems = document.getElementById("carouselItems")
 let carouselBlocks = document.getElementById("carouselBlocks")

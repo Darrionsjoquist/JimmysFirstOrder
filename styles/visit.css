@@ -1,8 +1,21 @@
 .visit-content{
+    text-align:center;
+    /* width: 400px; */
+    /* max-width: 500px;
+    min-width: 50px; */
+    
+    
 
-    display:flex;
-    flex-direction: column;
+    
+    /* padding-left: 35%; */
+}
+.wordz{
+    font-size: 35px;
+    display: grid;
+    
+}
 
-    justify-content: space-between;
-    align-content:space-between;
+hr{
+
+    width: 400px;
 }

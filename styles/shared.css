@@ -88,6 +88,7 @@ footer .contact, footer .hours {
   text-align: center;
   display: flex;
   align-items:flex-start;
+
 }
 
 footer .company {
@@ -100,6 +101,9 @@ footer .company h2 {
   margin-bottom:0;
 }
 
+footer .contact {
+   font-size: 15px;
+}
 
 header nav {
   font-size:30px;

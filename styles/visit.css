@@ -1,5 +1,8 @@
 .visit-content{
     text-align:center;
+    /* width: 400px; */
+    /* max-width: 500px;
+    min-width: 50px; */
     
     
 
@@ -10,4 +13,9 @@
     font-size: 35px;
     display: grid;
     
+}
+
+hr{
+
+    width: 400px;
 }

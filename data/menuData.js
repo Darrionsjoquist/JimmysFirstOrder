@@ -67,6 +67,7 @@ const getDataFromGoogleSheet = async () => {
 const loadMenuDataFromGoogleSheet = async () => {
    const data = await getDataFromGoogleSheet();
    console.log(data);
+   return data;
 }
 
 loadMenuDataFromGoogleSheet();

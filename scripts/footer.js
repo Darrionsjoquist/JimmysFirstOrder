@@ -1,7 +1,7 @@
 function genFooter (){
   document.getElementById("footer").innerHTML= `
       <div class="container bottom-bar">
-          <div class="contact">
+          <div class="contact body2">
               <p>
               Contact<br>
               ${address.phone}<br>
@@ -24,7 +24,7 @@ function genFooter (){
               </div>
           </div>
   
-          <div class="hours">
+          <div class="hours body2">
           <p>
               Hours<br>
               Tues - Sun  5pm to midnight<br>

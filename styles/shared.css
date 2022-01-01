@@ -1,8 +1,88 @@
 body {
   margin: 0;
-  font-family: Oswald,sans-serif;
-  text-transform: none;
 }
+
+/*   typography   ************************************************/
+body {
+  font-family: Oswald,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 300px;
+  font-size: 64rem;
+  line-height: 1.167;
+  letter-spacing: -0.01562rem;
+  /*
+  "@media (min-width:600px)": {
+              "fontSize": "4.4987rem"
+          },
+          "@media (min-width:900px)": {
+              "fontSize": "4.9272rem"
+          },
+          "@media (min-width:1200px)": {
+              "fontSize": "5.5698rem"
+          }
+  */
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 100px;
+  line-height: 3px;
+  letter-spacing: -0.00833;
+}
+h3 {
+  font-weight: 400px;
+  font-size: 1.89285715rem;
+  line-height: 1.167;
+  letter-spacing: 0em;
+}
+h4 {
+  font-weight: 400px;
+  font-size: 1.4866rem;
+  line-height: 1.235;
+  letter-spacing: 0.0073em;
+}
+h5 {
+  font-weight: 400px;
+  font-size: 1.08035rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+h6 {
+  font-weight: 4=500px;
+  font-size: 1.89285715;
+  line-height: 1.167;
+  letter-spacing: 0em;
+}
+.body1 {
+  font-weight: 400px;
+  font-size: 13;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.body2 {
+  font-weight: 400px;
+  font-size: 0.8125rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.subtitle1 {
+  font-weight: 400px;
+  font-size: 1.92857rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.subtitle2 {
+  font-weight: 500px;
+  font-size: .8125rem;
+  line-height: 1.58;
+  letter-spacing: 0.00714em;
+}
+
+/*****************************************************************/
 
 .content{
   display: flex;

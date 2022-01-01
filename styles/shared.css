@@ -219,11 +219,7 @@ color: rgb(209, 208, 208);
   font-size: 30px;
 }
 
-.hamburger, #burger-menu {
-  display: none;
-}
-
-#burger-menu.show {
+.hamburger, #burger-menu, #burger-menu.show {
   display: none;
 }
 

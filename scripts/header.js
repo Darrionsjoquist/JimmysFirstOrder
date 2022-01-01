@@ -23,33 +23,27 @@ function genHeader(includeNavBar = true) {
           </ul>
       </div>
       <div class="hamburger">
-          <a href="javascript:void(0);" class="icon" onclick="openBurger()">
+          <a href="javascript:void(0);" class="icon" onclick="toggleBurgerMenu()">
               <i class="fa fa-bars"></i>
             </a>
       </div>
     </div>
-    <div id="burger-inside">
-        <div class="small-nav"> 
-            <ul>
-              <li class="small-nav-item"><a href="../menu.html">menu</a></li>
-              <li class="small-nav-item"><a href="../about.html" >about</a></li>
-              <li class="small-nav-item"><a href="../visit.html">visit</a></li>
-            </ul>
-        </div>
+    <div id="burger-menu">
+        <ul>
+          <li class="small-nav-item"><a href="../menu.html">menu</a></li>
+          <li class="small-nav-item"><a href="../about.html" >about</a></li>
+          <li class="small-nav-item"><a href="../visit.html">visit</a></li>
+        </ul>
     </div>
     
 </div>`
 }
 
-const headHTML = document.getElementById("head").innerHTML
+function toggleBurgerMenu() {
 
-let i=0
-function openBurger() {
-  if (!(document.getElementById("burger-inside").className === "burger-menu")) {
-    document.getElementById("burger-inside").className = "burger-menu"
-      
-  } else {
-    document.getElementById("burger-inside").className = ""
-  }
-
+  const el = document.getElementById("burger-menu");
+  if (el.className === "") 
+    el.className="show";
+  else 
+    el.className="";
 }

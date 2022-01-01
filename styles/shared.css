@@ -202,60 +202,40 @@ header nav ul li + li {
   padding-left: 40px;
 }
 
-header a{
+header a {
 text-decoration: none;
 color: rgb(209, 208, 208);
 
 }
 
-
-
-
-
-
-
-
-
-
-
-.hamburger{
+.hamburger, #burger-menu {
   display: none;
-  
-}
-#burger-inside{
 }
 
-.small-nav-item{
-  padding: 3%;
-  font-size: 30px;
-}
-
-@media (max-width: 700px){
-  .hamburger{
-    display: inline;
-  }
- .big-nav{
-   display: none;
- }
-}
-
-.small-nav ul{
+#burger-menu ul {
   flex-direction: column;
   text-align: center;
   list-style: none;
 }
 
-.burger-menu{
-  display: none;
+#burger-menu li {
+  padding: 3%;
+  font-size: 30px;
 }
 
-@media (min-width: 701px){
-  .burger-menu{
+#burger-menu.show {
+  display: block;
+}
+
+@media (max-width: 700px){
+  .hamburger {
     display: block;
   }
-} 
-@media (max-width: 600px) {
-  header nav {
-    display:none;
+  .big-nav {
+    display: none;
   }
 }
+
+
+
+

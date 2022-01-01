@@ -254,3 +254,8 @@ color: rgb(209, 208, 208);
     display: block;
   }
 } 
+@media (max-width: 600px) {
+  header nav {
+    display:none;
+  }
+}

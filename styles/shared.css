@@ -208,10 +208,6 @@ color: rgb(209, 208, 208);
 
 }
 
-.hamburger, #burger-menu {
-  display: none;
-}
-
 #burger-menu ul {
   flex-direction: column;
   text-align: center;
@@ -221,6 +217,10 @@ color: rgb(209, 208, 208);
 #burger-menu li {
   padding: 3%;
   font-size: 30px;
+}
+
+.hamburger, #burger-menu {
+  display: none;
 }
 
 #burger-menu.show {

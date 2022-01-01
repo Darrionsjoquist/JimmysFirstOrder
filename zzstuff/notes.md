@@ -11,6 +11,17 @@
 * [Capella | Restaurant HTML Template](https://themeforest.net/item/capella-restaurant-html-template/30953824)
 * [B-Chef - Restaurant HTML Template](https://themeforest.net/item/bchef-restaurant-html-template/28195613)
 * [Grand Restaurant HTML Template](https://themeforest.net/item/grand-restaurant-html-template/24839493)
+* [Monsoon](https://monsoonrestaurants.com/group-dining/)
+  * gallery
+  * menu
+  * event registration
+* [Marmite](https://www.marmiteseattle.com/)
+  * no nav on home page
+  * [spinasse](http://spinasse.com/menu/)
+    * scrolling menu over background images
+  * [shaker and spear](https://www.shakerandspear.com/photo-gallery/)
+    * colors
+    * gallery
   
 
 # Features - How Tos

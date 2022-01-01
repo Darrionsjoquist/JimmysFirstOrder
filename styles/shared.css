@@ -220,7 +220,37 @@ color: rgb(209, 208, 208);
 
 .hamburger{
   display: none;
+  
 }
 #burger-inside{
+}
+
+.small-nav-item{
+  padding: 3%;
+  font-size: 30px;
+}
+
+@media (max-width: 700px){
+  .hamburger{
+    display: inline;
+  }
+ .big-nav{
+   display: none;
+ }
+}
+
+.small-nav ul{
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+}
+
+.burger-menu{
   display: none;
 }
+
+@media (min-width: 701px){
+  .burger-menu{
+    display: block;
+  }
+} 

@@ -207,3 +207,9 @@ text-decoration: none;
 color: rgb(209, 208, 208);
 
 }
+
+@media (max-width: 600px) {
+  header nav {
+    display:none;
+  }
+}

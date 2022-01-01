@@ -224,15 +224,11 @@ color: rgb(209, 208, 208);
 }
 
 @media (max-width: 700px){
-  .hamburger {
+  .hamburger, #burger-menu.show {
     display: block;
   }
   .big-nav {
     display: none;
-  }
-
-  #burger-menu.show {
-    display: block;
   }
 }
 

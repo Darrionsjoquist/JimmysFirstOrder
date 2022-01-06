@@ -19,9 +19,9 @@ function genAddress () {
             <div class="contact">
                <p>
                Contact<br>
-               206-322-9734<br>
-               1406 12th Ave<br>
-               Seattle, WA 98122
+               ${address.phone}<br>
+               ${address.street}<br>
+               ${address.city+", "+address.city+" "+address.state+" "+address.zip}
                </p>
             </div>
    

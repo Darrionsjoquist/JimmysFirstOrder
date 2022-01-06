@@ -22,6 +22,10 @@
   * [shaker and spear](https://www.shakerandspear.com/photo-gallery/)
     * colors
     * gallery
+  * [Square space - atlantic](https://www.squarespace.com/templates/atlantic-demo)
+  * [Square space - juniper](https://tuba-cello-jhz2.squarespace.com/config/)
+  * [Square space - eldridge](https://eldridge-demo.squarespace.com/?nochrome=true)
+  * [Square space - auburn](https://auburn-demo.squarespace.com/?nochrome=true)
   
 
 # Features - How Tos

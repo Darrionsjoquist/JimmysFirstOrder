@@ -4,18 +4,32 @@
 <head id="head">
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link type="image/vnd.microsoft.icon" rel="shortcut icon" href=images/favicon.ico>
-   <title>Menu(Jimmy's On First)</title>
-
-   <link rel="stylesheet" href="styles/shared.css">
-   <link rel="stylesheet" href="styles/menu.css">
-
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  
+   <!-- Bootstrap -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
+     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+     crossorigin="anonymous"></script>
+ 
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+   
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/85235f69e0.js" crossorigin="anonymous"></script>
+ 
+   <!-- Fav Icon -->
+   <link type="image/vnd.microsoft.icon" rel="shortcut icon" href=images/favicon.ico>
+   
+     <!-- Internal -->
+     <link rel="stylesheet" href="styles/shared.css">
+ 
+     <!-- Page-specific links -->
+     <link rel="stylesheet" href="styles/menu.css">
 </head>
 
 <body>
@@ -23,7 +37,7 @@
       <header id="header"></header>
 
       <main>
-         <!-- <div class="container"> -->
+         <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                <div class="carousel-indicators" id="carouselBlocks">
 
@@ -70,12 +84,13 @@
                   </div>
                </div>
             </div>
-         <!-- </div> -->
+         </div>
       </main>
       <footer id="footer"></footer>
 
    </div>
 
+   <script src="data\contactData.js"></script>
    <script src="data\menuData.js"></script>
    <script src="scripts\header.js"></script>
    <script src="scripts\footer.js"></script>

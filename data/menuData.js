@@ -2,28 +2,28 @@ let Menu = [
 {
 EntryName:"srimp paste bowl",
 EntryType:"Food",
-EntryDiscription:"freshly frozen shrimp ground into paste",
+EntryDescription:"freshly frozen shrimp ground into paste",
 EntryPrice:"$160"
 },
 {
    EntryName:"srimp paste bowl",
    EntryType:"Drinks",
-   EntryDiscription:"freshly frozen shrimp ground into paste",
+   EntryDescription:"freshly frozen shrimp ground into paste",
    EntryPrice:"$161"
 },
 {EntryName:"paste cup",
 EntryType:"Drinks",
-EntryDiscription:"freshly frozen shrimp ground into paste",
+EntryDescription:"freshly frozen shrimp ground into paste",
 EntryPrice:"$154"
 },
 {EntryName:"glop glass",
 EntryType:"Drinks",
-EntryDiscription:"grean glop from fresh the drain",
+EntryDescription:"grean glop from fresh the drain",
 EntryPrice:"$57"
 },
 {EntryName:"candied paste",
 EntryType:"Treats",
-EntryDiscription:"freshly frozen shrimp ground into paste",
+EntryDescription:"freshly frozen shrimp ground into paste",
 EntryPrice:"$28"}
 ]
 

@@ -1,11 +1,8 @@
 
-genHeader(1);
-
 let carouselItems = document.getElementById("carouselItems")
 let carouselBlocks = document.getElementById("carouselBlocks")
 
-
-//carosell stuff
+// carousel stuff
 
 function makeCarouselItem(specialObject, index) {
    return `
@@ -17,10 +14,9 @@ function makeCarouselItem(specialObject, index) {
       </div>
    </div>
    `
-
 }
-function mkBlocks(i) {
 
+function mkBlocks(i) {
    if (i === 0) {
       return `<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>`
    } else {
@@ -28,21 +24,16 @@ function mkBlocks(i) {
    }
 }
 
-function genarateSpecials() {
+function generateSpecials() {
    let itemCode = ""
    let blocksCode = ""
    for (i = 0; i < specials.length; i++) {
       itemCode = itemCode + makeCarouselItem(specials[i], i)
       blocksCode = blocksCode + mkBlocks(i)
-
-
    }
    carouselItems.innerHTML = itemCode
    carouselBlocks.innerHTML = blocksCode
-
 }
-
-genarateSpecials()
 
 // changing menus
 
@@ -60,13 +51,12 @@ function GenFoodEntry(e) {
          <h3>${e.EntryPrice}</h3>
       </div>
       <div>
-         <p>${e.EntryDiscription}</p>
+         <p>${e.EntryDescription}</p>
       </div>
 
    </div>
 `
 }
-
 
 function GenFoodMenu(e) {
    FilteredMenu = Menu.filter(function (x) {
@@ -79,7 +69,6 @@ function GenFoodMenu(e) {
    }
 
    MenuList.innerHTML = MenuString
-
 }
 
 foodQ.addEventListener(`click`, GenFoodMenu)
@@ -89,3 +78,7 @@ drinksQ.addEventListener(`click`, GenFoodMenu)
 treatsQ.addEventListener(`click`, GenFoodMenu)
 
 foodQ.click();
+
+generateSpecials()
+genHeader(true);
+genFooter();

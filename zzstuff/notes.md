@@ -26,6 +26,7 @@
   * [Square space - juniper](https://tuba-cello-jhz2.squarespace.com/config/)
   * [Square space - eldridge](https://eldridge-demo.squarespace.com/?nochrome=true)
   * [Square space - auburn](https://auburn-demo.squarespace.com/?nochrome=true)
+  * [Square space site](https://www.erikjo.com/faq)
   
 
 # Features - How Tos

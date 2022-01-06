@@ -1,4 +1,4 @@
-genHeader()
+
 
 function addHoverEvent(linkId, imageUrl) {
    document.getElementById(linkId).addEventListener("mouseover", (event) => {
